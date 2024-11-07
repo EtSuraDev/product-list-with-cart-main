@@ -1,0 +1,74 @@
+[
+    {
+        "imgInMobile":"./image/image-waffle-mobile.jpg",
+        "imgInTablet":"./image/image-waffle-tablet.jpg",
+        "imgInDesktop":"./image/image-waffle-desktop.jpg",
+        "price":"6.50",
+        "name":"waffle",
+        "fullName":"Waffle With Berries"
+    },
+    {
+        "imgInMobile":"./image/image-creme-brulee-mobile.jpg",
+        "imgInTablet":"./image/image-creme-brulee-tablet.jpg",
+        "imgInDesktop":"./image/image-creme-brulee-desktop.jpg",
+        "price":"7.00",
+        "name":"Crème Brûlée",
+        "fullName":"Vanilla Bean Crème Brûlée"
+    },
+    {
+        "imgInMobile":"./image/image-macaron-mobile.jpg",
+        "imgInTablet":"./image/image-macaron-tablet.jpg",
+        "imgInDesktop":"./image/image-macaron-desktop.jpg",
+        "price":"8.00",
+        "name":"Macaron",
+        "fullName":"Macaron Mix of Five"
+    },
+    {
+        "imgInMobile":"./image/image-tiramisu-mobile.jpg",
+        "imgInTablet":"./image/image-tiramisu-tablet.jpg",
+        "imgInDesktop":"./image/image-tiramisu-desktop.jpg",
+        "price":"5.50",
+        "name":"Tiramisu",
+        "fullName":"Classic Tiramisu"
+    },
+    {
+        "imgInMobile":"./image/image-baklava-mobile.jpg",
+        "imgInTablet":"./image/image-baklava-tablet.jpg",
+        "imgInDesktop":"./image/image-baklava-desktop.jpg",
+        "price":"4.00",
+        "name":"baklava",
+        "fullName":"Pistachio Baklava"
+    },
+    {
+        "imgInMobile":"./image/image-meringue-mobile.jpg",
+        "imgInTablet":"./image/image-meringue-tablet.jpg",
+        "imgInDesktop":"./image/image-meringue-desktop.jpg",
+        "price":"5.00",
+        "name":"Pie",
+        "fullName":"Lemon Meringue Pie"
+    },
+    {
+        "imgInMobile":"./image/image-cake-mobile.jpg",
+        "imgInTablet":"./image/image-cake-tablet.jpg",
+        "imgInDesktop":"./image/image-cake-desktop.jpg",
+        "price":"4.50",
+        "name":"cake",
+        "fullName":"Red Velvet Cake"
+    },
+    {
+        "imgInMobile":"./image/image-brownie-mobile.jpg",
+        "imgInTablet":"./image/image-brownie-tablet.jpg",
+        "imgInDesktop":"./image/image-brownie-desktop.jpg",
+        "price":"4.50",
+        "name":"brownie",
+        "fullName":"Salted Caramel Brownie"
+    },
+    {
+        "imgInMobile":"./image/image-panna-cotta-mobile.jpg",
+        "imgInTablet":"./image/image-panna-cotta-tablet.jpg",
+        "imgInDesktop":"./image/image-panna-cotta-desktop.jpg",
+        "price":"6.50",
+        "name":"Panna Cotta",
+        "fullName":"Vanilla Panna Cotta"
+    }
+]
