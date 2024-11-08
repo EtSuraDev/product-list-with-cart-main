@@ -50,7 +50,7 @@ export default function Cart(props){
                             </p> 
                         </div>
                         <button className=" mt-[30px] w-[100%] text-white font-semibold h-[50px] rounded-full bg-[hsl(14,86%,42%)] " 
-                        onClick={() => props.theLastBtn()}>
+                        onClick={() => props.setLastItem()}>
                             Confirm Order
                         </button>
                     </div>

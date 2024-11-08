@@ -1,3 +1,46 @@
+# product-list-with-cart-main
+
+# Frontend Mentor - Product list with cart
+
+![Design preview for the Product list with cart coding challenge](./preview.jpg)
+
+## Welcome! 👋
+
+Thanks for checking out this front-end coding challenge.
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+
+**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+
+## The challenge
+
+the challenge is to build out this product list project that includes a functional cart and get it looking as close to the design as possible.
+.
+
+
+the users should be able to: 
+
+- Add items to the cart and remove them
+- Increase/decrease the number of items in the cart
+- See an order confirmation modal when they click "Confirm Order"
+- Reset their selections when they click "Start New Order"
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+
+
+
+## Deploying your project
+
+As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+
+- [GitHub Pages](https://pages.github.com/)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
