@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 import Items from "./component/singelItem";
 import Cart from "./component/cart";
@@ -20,21 +20,21 @@ function App() {
         }
         return price
     }
-    function setCartArrayFunc(){
-        setCartArray(() =>{
-            let array = []
-            for(let i = 0;i < howManyFood.length;i++){
-                let pushData = data[i]
-                pushData = {...pushData,key:i}
-                pushData = {...pushData,key:i}
-                howManyFood[i] > 0 ? array.push(pushData) : array.splice(i,1)
-            }
-            return array
-        })
-    }
+    const setCartArrayFunc = useCallback(() => {
+        setCartArray(() => {
+            const array = data.reduce((acc, item, index) => {
+                if (howManyFood[index] > 0) {
+                    acc.push({ ...item, key: index });
+                }
+                return acc;
+            }, []);
+            return array;
+        });
+    }, [howManyFood]);
     useEffect(() => {
         setCartArrayFunc();
-    }, [howManyFood]);
+    }, [setCartArrayFunc]);
+
     function onClickBtn(index,num){
         num === 0 ?
             setHowManyFood((prev) => {
@@ -72,9 +72,11 @@ function App() {
         for(let i = 0; i < data.length ; i++){
             array.push(0)
         }
+        console.log(lastItem.current.style.display = "none")
         return array
         })
     }
+    console.log(1)
     return (
         < >
             <div className=" w-full h-fit grid grid-cols-1  lg:grid-cols-[70%,30%]">

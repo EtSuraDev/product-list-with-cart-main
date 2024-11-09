@@ -25,7 +25,7 @@ export default function Cart(props){
                                             <p className=" text-[rgb(115,114,114)] "> @ ${item.price} </p>
                                             <p className=" text-[#242323] "> ${ Number(item.price) *  props.howManyFood[item.key]} </p>
                                         </div>
-                                        <div className="w-[18px] h-[18px] border-[1px] border-[#CAAFA7] hover:border-black absolute  rounded-full flex justify-center hover:stroke-black items-center right-2 " onClick={() => props.removeBtn(item.key)}> 
+                                        <div className="w-[18px] h-[18px] border-[1px] border-[#CAAFA7] hover:border-black absolute cursor-pointer rounded-full flex justify-center hover:stroke-black items-center right-2 " onClick={() => props.removeBtn(item.key)}> 
                                             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 10 10">
                                                 <path fill="#CAAFA7" d="M8.375 9.375 5 6 1.625 9.375l-1-1L4 5 .625 1.625l1-1L5 4 8.375.625l1 1L6 5l3.375 3.375-1 1Z"/>
                                             </svg>
